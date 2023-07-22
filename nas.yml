@@ -11,10 +11,10 @@
         - ansible-nas-users
         - ansible-nas
 
-    - role: bertvv.samba
-      tags:
-        - samba
-        - skip_ansible_lint
+    # - role: bertvv.samba
+    #   tags:
+    #     - samba
+    #     - skip_ansible_lint
 
     - role: geerlingguy.nfs
       tags:
@@ -297,6 +297,10 @@
     - role: paperless_ng
       tags:
         - paperless_ng
+
+    - role: photoprism
+      tags:
+        - photoprism
 
     - role: piwigo
       tags:
